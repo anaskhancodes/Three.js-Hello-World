@@ -9,6 +9,7 @@ document.body.appendChild(renderer.domElement);
 const geometry = new THREE.BoxGeometry(1, 3, 1); // Corrected typo
 const material = new THREE.MeshBasicMaterial({ color: "yellow" });
 const cube = new THREE.Mesh(geometry, material);
+// const cube = new THREE.Line(geometry, material);
 
 scene.add(cube);
 renderer.render(scene, camera);
